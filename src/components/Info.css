@@ -1,0 +1,41 @@
+.Info{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    height: 30px;
+}
+.info-sec{
+   /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.info-sec p{
+width: fit-content;
+/* height: 30px; */
+}
+.logonav{
+    color: rgb(244, 105, 105);
+    /* padding-top: 10px; */
+    margin-top: 5px;
+}
+
+@media screen and (max-width:450px){
+    .Info{
+        flex-direction: column;
+        /* background-color: aqua; */
+        z-index: 1000;
+        height: fit-content;
+    }
+   .info-sec{
+    justify-content: center;
+    gap: 0px;
+    margin: 0%;
+   }
+   .info-sec p{
+    padding-right: 20px;
+   }
+}

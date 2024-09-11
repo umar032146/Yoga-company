@@ -1,0 +1,47 @@
+/* Navbar.css */
+.navbarC {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.navbar-logoC {
+    font-size: 24px;
+}
+
+.navbar-linksC {
+    display: none; /* Hide by default */
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.navbar-linksC link {
+    color: rgb(111, 8, 8);
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    display: block;
+}
+
+.navbar-linksC.active {
+    display: flex; /* Show when active */
+}
+
+.navbar-toggleC {
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    width: 5%;
+    margin-left: 95%;   
+    margin-right: 0%;
+}

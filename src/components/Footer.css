@@ -1,0 +1,106 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .logo-section {
+    max-width: 300px;
+  }
+  
+  .footer-logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .footer-description {
+    margin: 10px 0;
+  }
+  
+  .footer-icons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-icon {
+    margin: 5px 0;
+  }
+  
+  .footer-icon i {
+    margin-right: 8px;
+  }
+.fa{
+    color: rgb(244, 105, 105);
+
+}  
+  .company-section h4,
+  .about-section h4,
+  .open-time-section h4 {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin: 5px 0;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #007bff;
+  }
+  
+  .open-time {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .open-time-item {
+    margin: 5px 0;
+  }
+  
+  .open-time-item i {
+    margin-right: 8px;
+  }
+  .open-time-section .input{
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+  }
+  .footer-icon{
+    display: flex;
+    gap: 10px;
+  }
+  .footer2{
+    display: flex;
+    justify-content: space-between;
+  }
+  @media screen and (max-width:450px){
+    .footer{
+      flex-direction: column;
+    }
+    .footer-icon{
+      justify-content: center;
+      gap: 10px;
+    }
+    .footer2{
+      flex-direction: column;
+    }
+  }

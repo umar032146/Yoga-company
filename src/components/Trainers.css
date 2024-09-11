@@ -1,0 +1,11 @@
+.team-row{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 5% 0;
+}
+@media screen and (max-width:450px){
+    .team-row{
+        flex-direction: column;
+    }
+}

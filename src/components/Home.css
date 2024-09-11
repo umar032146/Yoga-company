@@ -1,0 +1,353 @@
+p{
+    font-family: sans-serif;
+    color: gray;
+}
+.welcome{
+    margin-top: 100px;
+}
+.welcome-flex{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.welcome img{
+    width: 5%;
+    margin: 0% 47.5%;
+}
+.welcome h1{
+    text-align: center;
+    font-size: 40px;
+}
+.welcome p{
+    text-align: center;
+    padding: 0% 20px;
+}
+.welcomeimg img{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+
+}
+.welcomeimg{
+    width: 400px;
+    /* border: 1px solid black;    */
+}
+.welcome-sec-img img{
+    width: 50%;
+    height: 50%;
+    margin: 0%;
+    margin: 25% 25%;
+    
+}
+.welcome-sec-img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 100%;
+}
+.welcome-sec-info h1{
+    font-size: 30px;
+    text-align: left;
+}
+.welcome-sec-info p{
+    text-align: left;
+    padding: 0%;
+}
+.welcome-sec-info{
+    width: 250px;
+}
+.welcome-sec{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.welcomeinfo button{
+    background:linear-gradient(to right, rgb(244, 105, 105),rgb(245, 154, 80) );
+    color:white;
+    padding: 10px 15px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 100px; */
+    border-radius: 50px;
+    /* margin-left: 20px; */
+}
+.popular-classes{
+    margin-top: 100px;
+    text-align: center;
+    background-color:rgb(253, 231, 231);
+    height: 900px;
+}
+.popular-classes img{
+    width: 5%;
+    margin: 0% 47.5%;
+    margin-top: 5%;
+    /* padding-top: 100px; */
+}
+.popular-classes h1{
+    font-size: 40px;
+}
+
+.events{
+    margin-top: 100px;
+    text-align: center;
+}
+.events img{
+    width: 5%;
+    margin: 0% 47.5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.events h1{
+    font-size: 40px;
+}
+.events .event-vid{
+    width: 90%;
+    margin: 5% 5%;
+}
+.event-img img{
+    width: 100%;
+    height: 100%;
+
+}
+.event-img{
+    width: 230px;
+}
+.event-info-icon{
+    display: flex;
+    margin: 5% 0;
+}
+
+.event-sec{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 90%;
+    margin: 5% 5%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.event-icon{
+ color: rgb(244, 105, 105);   
+ margin-right: 10px;
+
+}
+.event-info h1{
+ font-size: 25px;
+ /* margin: 5% 0; */
+ margin-top: 7%;
+ margin-bottom: 2%;
+}
+
+.pricing{
+    margin-top: 100px;
+    text-align: center;
+    background-color:rgb(253, 231, 231);   
+}
+.pricing img{
+    width: 5%;
+    margin: 0% 47.5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding-top: 50px;   
+}
+.pricing h1{
+    font-size: 40px;
+}
+.pricing-sec{
+    width: 200px;
+    height: 400px;
+    /* border: 1px solid black; */
+    border-radius: 0px;
+}
+.pricing-sec-bg{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid black; */
+    /* position: absolute; */
+    /* left: 100px; */
+    /* top: 0px; */
+    /* z-index: 2; */
+    background-color: rgb(245, 154, 80);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.pricing-sec-bg h1{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.pricing-sec-price{
+    z-index: auto;
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    /* margin-bottom: 100px; */
+    position: relative;
+    left: 20px;
+    margin: 2%;
+    /* margin-left: 1%; */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.pricing-sec-price h1{
+    padding-top: 20px;
+    color: black;
+    font-size: 40px;
+}
+.pricing-sec-info{
+    background-color: white;
+    height: 250px;
+    padding-top: 70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: -10;
+}
+.pricing-sec-info button{
+    border: 1px solid rgb(244, 105, 105);
+    padding: 10px 15px;
+    border-radius: 50px;
+    color:rgb(244, 105, 105);
+    margin-top: 20px;
+    transition:  background-color 0.5s ease;
+    transition:  color 0.5s ease;
+}
+.pricing-sec-info button:hover{
+    background-color:rgb(244, 105, 105);
+   color: white;
+}
+
+.pricing-row{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* margin: 10% 0; */
+    margin-top: 10%;
+    padding-bottom: 10%;
+}
+#inter{
+    background-color: rgb(251, 131, 33);   
+}
+#adv{
+    background-color:rgb(244, 105, 105);   
+}
+#pro{
+    background-color:rgb(252, 50, 50);   
+}
+.contact-row{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    margin: 5% 0;
+}
+
+@media screen and (max-width:450px){
+.welcome{
+    margin-top: 50px;
+}
+.welcome img{
+    width: 20%;
+    margin: 5% 40%;
+}
+.welcome h1{
+    font-size: 25px;
+}
+.welcome-flex{
+    flex-direction: column;
+}
+.welcomeimg img{
+    width: 100%;
+    margin: 0%;
+}
+.welcomeimg{
+    width: 100%;
+    margin: 0%;
+}
+.welcome-sec{
+    width: 100%;
+    flex-direction: column;
+}
+.welcome-sec-img img{
+    margin-top: 30%;
+}
+.welcome-sec-img{
+    height: 100px;
+    width: 100px;
+    margin: 0% 40%;
+}
+.welcome-sec-info{
+    text-align: center;
+    width: 100%;
+}
+.welcome-sec-info h1{
+    text-align: center;
+}
+.welcome-sec-info p{
+    text-align: center;
+}
+.welcomeinfo button{
+    margin: 0% 30%;
+}
+.popular-classes{
+    height:fit-content;
+}
+.popular-classes h1{
+    font-size: 25px;
+}
+.popular-classes img{
+    width: 20%;
+    margin: 5% 40%;   
+}
+.event-sec{
+    flex-direction: column;
+    width: 90%;
+    margin: 10% 5%;
+}
+.event-img{
+    width: 100%;
+    
+}
+.event-img img{
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.pricing h1{
+    font-size: 25px;
+}
+.pricing img{
+    width: 20%;
+    margin: 5% 40%;      
+}
+.pricing-row{
+    flex-direction: column;
+}
+.pricing-sec{
+    width: 90%;
+    margin: 5% ;
+}
+.pricing-sec-price{
+    width: 40%;
+    height: 80%;
+    /* height: 100px; */
+    margin: 0 30%;
+    left: 0;
+}
+.contact-row{
+    flex-direction: column;
+}
+}
+@media screen and (min-width:500px) and (max-width: 800px){
+.pricing-sec-price{
+    left: 5px;
+}
+.event-sec{
+    flex-direction: column;
+    width: 40%;
+}
+.event-img{
+    width: 100%;
+    
+}
+}
